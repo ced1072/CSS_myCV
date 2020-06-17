@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height:2;
+  color:#40514E
+}
+
+h1{
+display:inline-block;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+font-size: 6rem;
+color: #66BFBF;
+
+}
+
+.top-container{
+ background-color:#e0fbfc;
+ position: relative;
+ padding-top: 100px;
+}
+
+.cloud1{
+ position: absolute;
+ right: 200px;
+ top: 50px;
+
+}
+
+.cloud2{
+  position: absolute;
+  left: 100px;
+  bottom: 500px;
+}
+@media screen and (max-width: 480px) {
+
+  .cloud2 {
+      display:none;
+  }
+}
+
+.intro, .contactMsg{
+  width: 30%;
+  margin: auto;
+  padding: 0 0 30px 0;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size:2.5rem;
+  color: #66BFBF;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+ 
+
+}
+
+.myPhoto{
+  width: 200px;
+  height: 200px;
+
+}
+a{
+  color:#11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+.middle-container{
+  padding: 100px 0;
+}
+
+ .skill-row{
+   width: 50%;
+   margin:100px auto;
+   text-align: left;
+   line-height: 2;
+
+ }
+ 
+ .code{
+   float: left;
+   padding: 30px;
+  
+ }
+
+ .hands{
+  float: right;
+  padding: 30px;
+}
+
+.border{
+  width: 20%;
+  display: inline-block;
+  border: dotted thistle;
+  border-width: 0 0 10px;
+  
+  }
+
+
+
+.bottom-container{
+  background-color:#66BFBF;
+  line-height:3;
+  padding:30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link{
+  margin: 0 30px;
+}
+.copywrite{
+  color: white;
+  font-size: 0.75rem;
+}
+.iconAttribute{
+  color:white;
+
+}
+
+.btn {
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #66BFBF;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FFFFFF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 50px 0;
+  }
+  
+  .btn:hover {
+  border: solid #FFFFFF 2px;
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  border-radius: 20px;
+  text-decoration: none;
+  }
